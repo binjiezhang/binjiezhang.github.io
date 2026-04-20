@@ -1,0 +1,186 @@
+cv:
+  name: Binjie Zhang
+  label: Ph.D. Candidate, Computer Science
+  email: binjie97@u.nus.edu
+  location: Singapore
+  image: ""
+  summary: >
+    Ph.D. candidate at Show Lab, National University of Singapore. Research interests span
+    LLM agents (harness, memory, tool use, self-evolution), vision-language and video
+    understanding, world models, and lifelong / compatible representation learning.
+
+  social_networks:
+    - network: GitHub
+      username: binjiezhang
+
+  sections:
+    Education:
+      - institution: National University of Singapore (NUS)
+        location: Singapore
+        url: https://www.comp.nus.edu.sg/
+        area: Computer Science
+        studyType: Ph.D.
+        start_date: 2023-01-01
+        end_date: 2027-01-01
+        highlights:
+          - Advisor - Asst. Prof. Mike Zheng Shou (Show Lab).
+          - Research on LLM agents, vision-language, world models, and compatible representations.
+
+      - institution: Tsinghua University (THU)
+        location: Beijing, China
+        url: https://www.tsinghua.edu.cn/
+        area: Computer Science and Technology
+        studyType: M.Eng.
+        start_date: 2019-08-01
+        end_date: 2022-07-01
+        highlights:
+          - Advisor - Prof. Chun Yuan.
+          - Focus on compatible representation learning and cross-modal video understanding.
+          - Excellent Master's Graduate in Beijing; Outstanding Master's Thesis.
+
+      - institution: East China University of Science and Technology (ECUST)
+        location: Shanghai, China
+        url: https://www.ecust.edu.cn/
+        area: Information Engineering
+        studyType: B.Eng.
+        start_date: 2015-08-01
+        end_date: 2019-07-01
+        score: "3.77 / 4.00"
+        highlights:
+          - Cumulative rank 1 / 92.
+
+    Experience:
+      - company: TikTok (ByteDance)
+        position: AI Research Intern
+        location: Singapore
+        start_date: 2026-01-01
+        end_date: 2026-04-01
+        summary: >
+          Sole owner of several LLM-agent research and production projects, end-to-end from
+          design to deployment.
+        highlights:
+          - Pivoted from a vision / world-model background to a large-scale LLM-agent stack within two weeks.
+          - Designed and implemented a declarative, skill-based agent harness with LLM semantic routing and progressive disclosure.
+          - Built an Agent-Native self-evolving training loop (Diagnose, Hypothesize, Experiment, Evaluate, Reflect) on top of internal training / data / monitoring / deployment platforms.
+          - Researched training-free optimization of agent memory (retrieval, write, eviction) for long-horizon tool-use agents.
+          - End-to-end ownership - design, implementation, cross-team integration, review, and production rollout.
+
+      - company: Show Lab, National University of Singapore
+        position: Ph.D. Researcher
+        location: Singapore
+        start_date: 2023-01-01
+        end_date: Present
+        summary: >
+          Research on LLM agents, world / predictive models, and lifelong / compatible
+          representation learning.
+        highlights:
+          - Reflection-augmented policy optimization for tool-using agents (ReGRPO).
+          - Lifelong imitation learning for robotic manipulation (RCFC).
+          - Egocentric future prediction conditioned on hand trajectories.
+
+      - company: Tencent ARC Lab - Compatible Representation Learning
+        position: AI Research Intern
+        location: Shenzhen, China
+        start_date: 2020-01-01
+        end_date: 2023-01-01
+        summary: >
+          Backward-compatible representation learning and model upgrades for large-scale image
+          and video retrieval systems.
+        highlights:
+          - Four first-author papers (ICLR'22, IJCAI'22 long oral, AAAI'23, arXiv'23) defining the team's backward-compatible retrieval line.
+          - Multi-GPU contrastive / CLIP-style training pipelines with regression-alleviating methods enabling hot-refresh upgrades without re-encoding billion-scale galleries.
+          - Winner of the Tencent Technology Breakthrough Award (2022).
+
+      - company: Tencent ARC Lab - Cross-Modality Video Understanding
+        position: AI Research Intern
+        location: Shenzhen, China
+        start_date: 2019-01-01
+        end_date: 2020-01-01
+        summary: >
+          Multimodal models for video-text retrieval and temporal grounding on large-scale
+          video-language datasets; built the PyTorch data / training / evaluation codebase
+          for the group's multi-modal research.
+
+    Academic Interests:
+      - name: LLM Agents
+        keywords:
+          - agent harness
+          - skill systems
+          - long-horizon memory
+          - tool use
+          - multi-modal CoT
+          - reflection-augmented RL
+          - self-evolving training loops
+      - name: Vision-Language and Video
+        keywords:
+          - multi-modal foundation models
+          - video-text retrieval
+          - temporal grounding
+          - egocentric video understanding
+      - name: World and Predictive Models
+        keywords:
+          - future prediction
+          - hand-trajectory conditioning
+          - latent diffusion
+          - embodied planning
+      - name: Lifelong and Compatible Representation Learning
+        keywords:
+          - backward-compatible retrieval
+          - hot-refresh model upgrades
+          - prototype replay
+          - coarse-to-fine compatibility
+
+    Awards:
+      - title: Tencent Technology Breakthrough Award
+        awarder: Tencent
+        date: 2022-01-01
+        summary: For Hot-Refresh Model Upgrades.
+      - title: SZCCF Science and Technology Award
+        awarder: Shenzhen CCF
+        date: 2022-01-01
+        summary: For efficient compatible model upgrades.
+      - title: Excellent Master Degree Graduate in Beijing & Outstanding Master's Thesis
+        awarder: Beijing Municipal Education Commission / Tsinghua University
+        date: 2022-01-01
+      - title: Annual College Personage Award
+        awarder: ECUST
+        date: 2018-01-01
+        summary: Highest student honor at ECUST.
+      - title: National Scholarship for Undergraduates (twice)
+        awarder: Ministry of Education of China
+        date: 2017-01-01
+        summary: 2016 and 2017.
+
+    Skills:
+      - name: Research Areas
+        keywords:
+          - LLM agents (harness / memory / tool use / RL)
+          - vision-language models
+          - world and predictive models
+          - video understanding
+          - lifelong and compatible representation learning
+      - name: Languages and Tools
+        keywords:
+          - Python (primary)
+          - C/C++
+          - SQL
+          - Bash
+          - LaTeX
+      - name: ML and Agent Stack
+        keywords:
+          - PyTorch
+          - HuggingFace
+          - DeepSpeed
+          - vLLM
+          - LangGraph / LangChain
+          - MCP
+          - CLIP
+          - Latent Diffusion
+      - name: Infra
+        keywords:
+          - distributed multi-GPU training
+          - sandboxed code execution
+          - large-scale training platforms
+
+    Academic Service:
+      - bullet: "**Reviewer:** ECCV, ICCV, CVPR, ICLR, AAAI, IJCAI."

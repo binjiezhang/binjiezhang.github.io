@@ -1,0 +1,11 @@
+# Social media links shown on the about page.
+# Icons appear in the order defined below.
+cv_pdf: /assets/pdf/binjie_cv.pdf
+email: binjie97@u.nus.edu
+scholar_userid: Gk-tbbgAAAAJ
+github_username: binjiezhang
+# Uncomment and fill in any of the following if you want to show them:
+# orcid_id:
+# linkedin_username:
+# twitter_username:
+rss_icon: false
