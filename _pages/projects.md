@@ -5,7 +5,7 @@ permalink: /projects/
 description: Selected research projects.
 nav: true
 nav_order: 3
-display_categories: [research]
+display_categories: [agent systems, research]
 horizontal: false
 ---
 

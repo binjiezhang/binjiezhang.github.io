@@ -54,16 +54,16 @@ cv:
         position: AI Research Intern
         location: Singapore
         start_date: 2026-01-01
-        end_date: 2026-04-01
+        end_date: 2026-06-01
         summary: >
-          Sole owner of several LLM-agent research and production projects, end-to-end from
-          design to deployment.
+          Sole owner of three production LLM-agent systems plus a memory research line for
+          large-scale e-commerce governance, end-to-end from design to deployment.
         highlights:
-          - Pivoted from a vision / world-model background to a large-scale LLM-agent stack within two weeks.
-          - Designed and implemented a declarative, skill-based agent harness with LLM semantic routing and progressive disclosure.
-          - Built an Agent-Native self-evolving training loop (Diagnose, Hypothesize, Experiment, Evaluate, Reflect) on top of internal training / data / monitoring / deployment platforms.
-          - Researched training-free optimization of agent memory (retrieval, write, eviction) for long-horizon tool-use agents.
-          - End-to-end ownership - design, implementation, cross-team integration, review, and production rollout.
+          - Designed a declarative, skill-based agent harness with LLM semantic routing and progressive disclosure for rapidly composing new agents.
+          - Built an agent-native self-evolving training loop (Diagnose, Hypothesize, Pilot, Gate, Train, Reflect) on top of internal training / data / monitoring / deployment platforms.
+          - Designed an LLM-as-judge patrol agent for risk discovery, combining multi-source signals with entity-graph diffusion and an evidence-gated feedback loop.
+          - Researched training-free optimization of agent memory (retrieval, write, eviction) and context management for long-horizon tool-use agents.
+          - End-to-end ownership - design, implementation, cross-team integration, review, and production rollout, after ramping into the agent stack within two weeks.
 
       - company: Show Lab, National University of Singapore
         position: Ph.D. Researcher
@@ -74,9 +74,10 @@ cv:
           Research on LLM agents, world / predictive models, and lifelong / compatible
           representation learning.
         highlights:
-          - Reflection-augmented policy optimization for tool-using agents (ReGRPO).
-          - Lifelong imitation learning for robotic manipulation (RCFC).
-          - Egocentric future prediction conditioned on hand trajectories.
+          - Reflection-augmented policy optimization for tool-using agents (ReGRPO, ECCV 2026).
+          - Path-anchored compatibility for lifelong vision-language-action adaptation (PathComp).
+          - Egocentric future prediction conditioned on hand trajectories (Ego-PM).
+          - Conflict-aware attribution for multi-hop retrieval-augmented generation (cLOO).
 
       - company: Tencent ARC Lab - Compatible Representation Learning
         position: AI Research Intern
@@ -107,6 +108,7 @@ cv:
           - agent harness
           - skill systems
           - long-horizon memory
+          - context management
           - tool use
           - multi-modal CoT
           - reflection-augmented RL
