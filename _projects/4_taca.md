@@ -8,10 +8,12 @@ category: research
 related_publications: false
 ---
 
-**TaCA** is a parameter-efficient adapter that enables seamless upgrades between visual foundation models (e.g. across **CLIP** variants) **without retraining downstream tasks**.
+**TaCA** is a task-agnostic compatible adapter for visual foundation model upgrades. **Preprint, 2023.**
 
-- Learns a lightweight alignment between old and new backbones.
-- Preserves the downstream heads, so existing retrieval / recognition systems keep working during backbone upgrades.
-- Validated on large-scale **video–text retrieval** and **video recognition** benchmarks.
+- Align the new backbone's representation with the interface expected by existing downstream modules.
+- Preserve downstream heads while upgrading the visual backbone.
+- Combine compatible adaptation and transfer-oriented training across downstream applications.
 
-[Paper](https://arxiv.org/pdf/2306.12642)
+The work studies image classification, visual question answering, and cross-modal retrieval.
+
+[Preprint](https://arxiv.org/abs/2306.12642)

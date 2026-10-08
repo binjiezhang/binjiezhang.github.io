@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-05-15
+date: "2026-10-08"
 inline: true
 related_posts: false
 ---
 
-Submitted **three papers to NeurIPS 2026** &mdash; **PathComp** (lifelong vision&ndash;language&ndash;action adaptation), **Ego-PM** (egocentric predictive model), and **cLOO** (conflict-aware multi-hop RAG attribution).
+**Current submissions:** SGRC, StateTrackBench, and PathComp are under review at **ICLR 2027**; POU-OPD is under review at **AAAI**.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two first-author papers submitted to **ICML 2026**: **RCFC** (lifelong imitation learning) and **Ego-centric Predictive Model Conditioned on Hand Trajectories** *(top 15%)*.
+Exploring **continual vision–language–action adaptation** and **egocentric future prediction**.

@@ -1,17 +1,17 @@
 ---
 layout: page
 title: Memory Optimization
-description: Training-free optimization of agent memory for long-horizon tool use.
+description: Memory and context policies for reliable long-horizon agents.
 img: assets/img/agent_memory.png
 importance: 2
 category: agent systems
 related_publications: false
 ---
 
-**Training-free** optimization of an agent's memory &mdash; deciding what to **retrieve**, **write**, and **evict** &mdash; without any gradient updates.
+I study how **memory and context policies** can make long-horizon agents more reliable.
 
-- Treats memory policy as a search / optimization problem over read–write–evict decisions.
-- Targets long-horizon, multi-step tool-use agents, where naïve context growth becomes the bottleneck.
-- Complements context management to keep the working set small and relevant.
+- Retrieve evidence and lessons that are relevant to the current decision.
+- Record experiment outcomes and explicit failure modes for reuse across runs.
+- Control what enters the working context through selective loading and summarization.
 
-*Research line from my AI research internship at TikTok (ByteDance); paper in preparation.*
+This direction connects production experience in agent harnesses and self-evolving experimentation with ongoing research. It is presented as a research direction, without a claim of a completed memory benchmark or a published paper.

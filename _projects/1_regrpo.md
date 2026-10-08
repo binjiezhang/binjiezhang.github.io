@@ -1,15 +1,18 @@
 ---
 layout: page
-title: ReGRPO — Reflection-Augmented RL for Tool-Using Agents
-description: Group-relative policy optimization with structured self-reflection for long-horizon tool use.
+title: ReGRPO — Grounded Reflection and Recovery
+description: Learning structured reflection and corrective tool use; ECCV 2026.
 img: assets/img/regrpo.png
 importance: 1
 category: research
 related_publications: false
 ---
 
-**ReGRPO** is a reflection-augmented variant of **group-relative policy optimization** for tool-using agents.
+**ReGRPO** learns grounded reflection and recovery for tool-using multimodal agents. **Accepted at ECCV 2026; first author.**
 
-- Injects **structured self-reflection** into the agent's multi-modal chain-of-thought during training.
-- The group-relative signal stabilizes credit assignment over long tool-use trajectories, while reflection turns failed rollouts into reusable learning signal.
-- Improves tool-selection reward and sample efficiency on long-horizon, multi-tool tasks &mdash; accepted at **ECCV 2026**.
+- A reflective data engine executes near-miss actions to collect grounded failure observations.
+- Structured **ErrorType / Evidence / FixPlan** reflections pair those failures with corrective tool actions for supervised warm-start training.
+- Policy optimization jointly learns reflections and corrective actions within local trajectories, with a cost term discouraging unnecessary reflection.
+- The underlying GRPO estimator is retained; the contribution lies in grounded recovery data, trajectory structure, and the training protocol.
+
+[Paper](https://arxiv.org/abs/2606.31392) · [Code](https://github.com/showlab/ReGRPO)

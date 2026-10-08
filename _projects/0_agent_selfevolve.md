@@ -1,17 +1,20 @@
 ---
 layout: page
-title: Self-Evolution
-description: Agent-native loops that let models keep improving after deployment.
+title: EvoA — Autonomous Model Iteration
+description:
+  Evidence-driven experiments, validation gates, and reusable model-improvement
+  memory.
 img: assets/img/agent_selfevolve.png
 importance: 4
 category: agent systems
 related_publications: false
 ---
 
-An **agent-native** loop where the LLM is the decision-maker that keeps a model improving with minimal human intervention.
+**EvoA** closes the loop from model failure diagnosis to experiments and reusable lessons. I led the design and delivery around existing training infrastructure.
 
-- Closed cycle: **diagnose → hypothesize → pilot → gate → train → reflect**.
-- Cheap **pilot runs** are gated before committing to full training, so compute is spent only on promising directions.
-- An append-only **lesson memory** turns failed runs into reusable knowledge for the next cycle.
+- **Diagnose → hypothesize → pilot → validate → reflect** connects agent judgment with reproducible tool execution.
+- Pilot experiments and validation gates select promising directions before full training.
+- Experiment memory records outcomes and failure modes to inform later iterations.
+- Candidate preparation is separated from controlled production rollout.
 
-*Built during my AI research internship at TikTok (ByteDance) as a self-evolving training platform.*
+In a controlled online experiment, the selected model reduced the **human audit rate by approximately 4.6% relative**. This is a measured outcome for that deployment, rather than a general guarantee of model quality or training speed.

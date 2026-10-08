@@ -1,17 +1,20 @@
 ---
 layout: page
-title: E-commerce Agent Landing
-description: Taking LLM agents from prototype to production for e-commerce governance.
+title: APA — Evidence-Driven Risk Discovery
+description:
+  A production risk-discovery workflow with scoped expansion and evidence
+  provenance.
 img: assets/img/agent_ecommerce.png
 importance: 5
 category: agent systems
 related_publications: false
 ---
 
-Landing LLM agents in a **large-scale e-commerce** setting &mdash; from research prototype to production deployment.
+**APA** is an evidence-driven risk-discovery pipeline for e-commerce content. I led the system design, implementation, and production integration.
 
-- An **LLM-as-judge** patrol that turns raw model scores into convictable, actionable cases via multi-source signals and **entity-graph diffusion**.
-- Evidence-gated recall and a feedback flywheel, so verified outcomes continuously sharpen the next cycle.
-- Designed for scale and reliability across multiple markets, keeping humans focused on the highest-value decisions.
+- Joint content and product signals focus discovery on relevant evidence.
+- Scope-aware expansion follows related content while preserving the connection to its source evidence.
+- Deduplication and provenance distinguish directly observed evidence from propagated candidates.
+- Review gates and recorded outcomes support controlled iteration.
 
-*Built during my AI research internship at TikTok (ByteDance).*
+Workflow measurements showed approximately **17× higher candidate throughput**. Independent human validation and population-level recall remain separate evaluation questions.

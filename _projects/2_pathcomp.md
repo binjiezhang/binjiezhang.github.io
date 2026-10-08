@@ -1,15 +1,16 @@
 ---
 layout: page
-title: PathComp — Lifelong Vision–Language–Action Adaptation
-description: Path-anchored compatibility for continually fine-tuning VLA policies.
-img: assets/img/prcfc.png
+title: PathComp — Persistent VLA Anchors
+description: Preserving acquisition-time interfaces during continual VLA fine-tuning.
 importance: 2
 category: research
 related_publications: false
 ---
 
-**PathComp** keeps a pretrained vision–language–action (VLA) policy improving on new skills without breaking the old ones, by anchoring compatibility along the model's **computation path** rather than only at the output head.
+**Path Compatibility (PathComp)** preserves acquisition-time input–response relations during continual fine-tuning of vision–language–action policies. **Under review at ICLR 2027.**
 
-- Stores compact **path anchors** at multiple stages of the network to preserve prior behaviors during continual fine-tuning.
-- Anchors are small and reliability-weighted, avoiding the cost of full trajectory replay.
-- Achieves the best matched-protocol average across the **LIBERO** and **ManiSkill3** lifelong-adaptation benchmarks. Currently under review at **NeurIPS 2026**.
+- Record modal tokens together with the fused latents and action distributions they produced when a task was acquired.
+- Train current fusion and action modules to preserve those persistent responses from cached inputs.
+- Use a separate modal anchor to constrain encoder drift on stored observations.
+
+The study evaluates held-out action error under its continual-learning protocol. It does not equate offline action error with rollout success, and does not claim matched storage or total training compute.

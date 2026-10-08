@@ -1,18 +1,18 @@
 ---
 layout: page
-title: Harness Framework
-description: A declarative, skill-based harness for rapidly composing LLM agents.
+title: FIRE — Agent Harness
+description: A reusable skill-based harness for production e-commerce workflows.
 img: assets/img/agent_harness.png
 importance: 1
 category: agent systems
 related_publications: false
 ---
 
-A declarative **agent harness** that turns hard-coded multi-agent pipelines into composable, configuration-driven **skills**.
+**FIRE** is a reusable agent harness for e-commerce workflows. I led its architecture and delivery from prototype to production.
 
-- **LLM semantic routing** selects the right skill from natural-language intent, so new capabilities are added by writing a skill spec rather than new code.
-- **Progressive disclosure** loads only the context a task needs, keeping prompts small and routing cheap.
-- A unified tool registry, permission interception, and a sandboxed execution layer make skills safe to run in production.
-- A conversational *skill studio* lets non-engineers author and validate new skills end-to-end.
+- **Semantic routing** maps natural-language requests to composable skills.
+- **Progressive disclosure** loads skill summaries, execution metadata, and detailed references only when needed.
+- A common tool interface, permission checks, and sandboxed execution support governed tool use.
+- Structured skill definitions make new workflows easier to author, evaluate, and maintain.
 
-*Built during my AI research internship at TikTok (ByteDance) for large-scale e-commerce governance.*
+FIRE reduced manual investigation and reporting effort while providing a shared execution foundation for other agent systems.

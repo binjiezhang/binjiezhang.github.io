@@ -1,15 +1,15 @@
 ---
 layout: page
-permalink: /publications/
+permalink: "/publications/"
 title: publications
-description: Selected publications in reverse chronological order. (* denotes first author or core contribution.)
+description:
+  Conference publications, preprints, and current submissions. (* denotes
+  first or co-first author; submissions are explicitly marked under review.)
 nav: true
 nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}
 

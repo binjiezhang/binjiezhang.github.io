@@ -4,15 +4,16 @@ cv:
   email: binjie97@u.nus.edu
   location: Singapore
   image: ""
-  summary: >
-    Ph.D. candidate at Show Lab, National University of Singapore. Research interests span
-    LLM agents (harness, memory, tool use, self-evolution), vision-language and video
-    understanding, world models, and lifelong / compatible representation learning.
-
+  summary:
+    Fourth-year Ph.D. candidate at Show Lab, National University of Singapore,
+    advised by Prof. Mike Zheng Shou. Research focuses on LLM agents, multimodal understanding,
+    and continual / compatible learning. Four first-author or co-first-author conference
+    papers at ICLR, IJCAI, AAAI, and ECCV; three production agent systems delivered
+    at TikTok Shop within five months. Currently working on Agentic Search at TikTok
+    Search.
   social_networks:
     - network: GitHub
       username: binjiezhang
-
   sections:
     Education:
       - institution: National University of Singapore (NUS)
@@ -20,147 +21,159 @@ cv:
         url: https://www.comp.nus.edu.sg/
         area: Computer Science
         studyType: Ph.D.
-        start_date: 2023-01-01
-        end_date: 2027-01-01
+        start_date: "2023-01-01"
+        end_date: "2027-01-01"
         highlights:
-          - Advisor - Asst. Prof. Mike Zheng Shou (Show Lab).
-          - Research on LLM agents, vision-language, world models, and compatible representations.
-
+          - Advisor - Prof. Mike Zheng Shou (Show Lab).
+          - Research on LLM agents, multimodal understanding, and continual / compatible
+            learning.
+          - Expected completion - January 2027.
       - institution: Tsinghua University (THU)
         location: Beijing, China
         url: https://www.tsinghua.edu.cn/
         area: Computer Science and Technology
         studyType: M.Eng.
-        start_date: 2019-08-01
-        end_date: 2022-07-01
+        start_date: "2019-08-01"
+        end_date: "2022-07-01"
         highlights:
           - Advisor - Prof. Chun Yuan.
           - Focus on compatible representation learning and cross-modal video understanding.
           - Excellent Master's Graduate in Beijing; Outstanding Master's Thesis.
-
       - institution: East China University of Science and Technology (ECUST)
         location: Shanghai, China
         url: https://www.ecust.edu.cn/
         area: Information Engineering
         studyType: B.Eng.
-        start_date: 2015-08-01
-        end_date: 2019-07-01
-        score: "3.77 / 4.00"
+        start_date: "2015-08-01"
+        end_date: "2019-07-01"
+        score: 3.77 / 4.00
         highlights:
           - Cumulative rank 1 / 92.
-
     Experience:
-      - company: TikTok (ByteDance)
+      - company: TikTok Search (ByteDance)
         position: AI Research Intern
         location: Singapore
-        start_date: 2026-01-01
-        end_date: 2026-06-01
-        summary: >
-          Sole owner of three production LLM-agent systems plus a memory research line for
-          large-scale e-commerce governance, end-to-end from design to deployment.
+        start_date: "2026"
+        end_date: Present
+        summary:
+          "Agentic Search and Tako: scenario-aware agent policies, evidence-driven
+          system iteration, and ongoing model-training design."
         highlights:
-          - Designed a declarative, skill-based agent harness with LLM semantic routing and progressive disclosure for rapidly composing new agents.
-          - Built an agent-native self-evolving training loop (Diagnose, Hypothesize, Pilot, Gate, Train, Reflect) on top of internal training / data / monitoring / deployment platforms.
-          - Designed an LLM-as-judge patrol agent for risk discovery, combining multi-source signals with entity-graph diffusion and an evidence-gated feedback loop.
-          - Researched training-free optimization of agent memory (retrieval, write, eviction) and context management for long-horizon tool-use agents.
-          - End-to-end ownership - design, implementation, cross-team integration, review, and production rollout, after ramping into the agent stack within two weeks.
-
+          - "Led Auto-Skill policy iteration: failure diagnosis, bounded strategy changes,
+            versioned experiments, and evaluation of the delivered search experience."
+          - Developed scenario-specific prompts while preserving shared planning and response
+            contracts.
+          - Ongoing data work - faithful trajectories that distinguish model-visible evidence,
+            agent actions, runtime repairs, and final rendered outcomes.
+          - Ongoing training and evaluation design - compare SFT, reinforcement learning,
+            and on-policy distillation; evaluate agent behavior and product quality separately.
+      - company: TikTok Shop (ByteDance)
+        position: AI Research Intern
+        location: Singapore
+        start_date: "2026-01-01"
+        end_date: "2026-06-01"
+        summary:
+          Led FIRE, EvoA, and APA from design to production within five months,
+          working with business and infrastructure partners on integration and rollout.
+        highlights:
+          - FIRE - designed a reusable skill-based agent harness with semantic routing,
+            progressive context loading, and governed tool execution for e-commerce workflows.
+          - EvoA - built an autonomous model-iteration loop combining diagnosis, pilot
+            experiments, validation gates, and reusable experiment memory; reduced the
+            human audit rate by approximately 4.6% relative in a controlled online experiment.
+          - APA - built evidence-driven risk discovery using joint content / product signals,
+            scoped expansion, deduplication, and provenance-aware review; expanded candidate
+            throughput approximately 17-fold in workflow measurements.
+          - Owned architecture, implementation, experimentation, evaluation, and cross-team
+            integration.
       - company: Show Lab, National University of Singapore
         position: Ph.D. Researcher
         location: Singapore
-        start_date: 2023-01-01
+        start_date: "2023-01-01"
         end_date: Present
-        summary: >
-          Research on LLM agents, world / predictive models, and lifelong / compatible
-          representation learning.
+        summary:
+          Research on grounded agent recovery, reliable supervision, evolving
+          state, and continual model adaptation.
         highlights:
-          - Reflection-augmented policy optimization for tool-using agents (ReGRPO, ECCV 2026).
-          - Path-anchored compatibility for lifelong vision-language-action adaptation (PathComp).
-          - Egocentric future prediction conditioned on hand trajectories (Ego-PM).
-          - Conflict-aware attribution for multi-hop retrieval-augmented generation (cLOO).
-
+          - ReGRPO - grounded reflection and corrective tool use; accepted at ECCV 2026.
+          - SGRC, StateTrackBench, and PathComp - first-author submissions under review
+            at ICLR 2027.
+          - POU-OPD - first-author submission under review at AAAI.
+          - Four first-author or co-first-author conference papers across ICLR, IJCAI,
+            AAAI, and ECCV; TaCA is an additional preprint.
       - company: Tencent ARC Lab - Compatible Representation Learning
         position: AI Research Intern
         location: Shenzhen, China
-        start_date: 2020-01-01
-        end_date: 2023-01-01
-        summary: >
-          Backward-compatible representation learning and model upgrades for large-scale image
-          and video retrieval systems.
+        start_date: "2020"
+        end_date: "2023"
+        summary:
+          Backward-compatible representation learning and model upgrades for
+          large-scale image and video retrieval systems.
         highlights:
-          - Four first-author papers (ICLR'22, IJCAI'22 long oral, AAAI'23, arXiv'23) defining the team's backward-compatible retrieval line.
-          - Multi-GPU contrastive / CLIP-style training pipelines with regression-alleviating methods enabling hot-refresh upgrades without re-encoding billion-scale galleries.
-          - Winner of the Tencent Technology Breakthrough Award (2022).
-
+          - First-author / co-first-author work at ICLR 2022, IJCAI 2022 (long oral),
+            and AAAI 2023, plus the TaCA preprint.
+          - Designed compatible model upgrades that accelerate production hot updates
+            and reduce feature-refresh cost for image and video retrieval.
+          - Built distributed contrastive / CLIP-style training pipelines and regression-alleviating
+            compatible learning methods.
+          - Recipient of the Tencent Technology Breakthrough Award and SZCCF Science and
+            Technology Award.
       - company: Tencent ARC Lab - Cross-Modality Video Understanding
         position: AI Research Intern
         location: Shenzhen, China
-        start_date: 2019-01-01
-        end_date: 2020-01-01
-        summary: >
-          Multimodal models for video-text retrieval and temporal grounding on large-scale
-          video-language datasets; built the PyTorch data / training / evaluation codebase
-          for the group's multi-modal research.
-
+        start_date: "2019"
+        end_date: "2020"
+        summary:
+          Multimodal models for video-text retrieval and temporal grounding on
+          large-scale video-language datasets; built the PyTorch data / training / evaluation
+          codebase for the group's multi-modal research.
     Academic Interests:
       - name: LLM Agents
         keywords:
-          - agent harness
-          - skill systems
-          - long-horizon memory
-          - context management
+          - agent harnesses
           - tool use
-          - multi-modal CoT
-          - reflection-augmented RL
-          - self-evolving training loops
-      - name: Vision-Language and Video
+          - memory and context management
+          - grounded reflection
+          - self-evolution
+          - on-policy distillation
+      - name: Multimodal Understanding
         keywords:
-          - multi-modal foundation models
-          - video-text retrieval
-          - temporal grounding
-          - egocentric video understanding
-      - name: World and Predictive Models
-        keywords:
-          - future prediction
-          - hand-trajectory conditioning
-          - latent diffusion
-          - embodied planning
-      - name: Lifelong and Compatible Representation Learning
+          - vision-language models
+          - video understanding
+          - multimodal reasoning
+      - name: Continual and Compatible Learning
         keywords:
           - backward-compatible retrieval
           - hot-refresh model upgrades
-          - prototype replay
-          - coarse-to-fine compatibility
-
+          - persistent VLA anchors
+          - task-agnostic adapters
     Awards:
       - title: Tencent Technology Breakthrough Award
         awarder: Tencent
-        date: 2022-01-01
+        date: "2022-01-01"
         summary: For Hot-Refresh Model Upgrades.
       - title: SZCCF Science and Technology Award
         awarder: Shenzhen CCF
-        date: 2022-01-01
+        date: "2022-01-01"
         summary: For efficient compatible model upgrades.
       - title: Excellent Master Degree Graduate in Beijing & Outstanding Master's Thesis
         awarder: Beijing Municipal Education Commission / Tsinghua University
-        date: 2022-01-01
+        date: "2022-01-01"
       - title: Annual College Personage Award
         awarder: ECUST
-        date: 2018-01-01
+        date: "2018-01-01"
         summary: Highest student honor at ECUST.
       - title: National Scholarship for Undergraduates (twice)
         awarder: Ministry of Education of China
-        date: 2017-01-01
+        date: "2017-01-01"
         summary: 2016 and 2017.
-
     Skills:
       - name: Research Areas
         keywords:
           - LLM agents (harness / memory / tool use / RL)
-          - vision-language models
-          - world and predictive models
-          - video understanding
-          - lifelong and compatible representation learning
+          - multimodal understanding
+          - continual and compatible learning
+          - agent data and evaluation
       - name: Languages and Tools
         keywords:
           - Python (primary)
@@ -183,6 +196,60 @@ cv:
           - distributed multi-GPU training
           - sandboxed code execution
           - large-scale training platforms
-
     Academic Service:
       - bullet: "**Reviewer:** ECCV, ICCV, CVPR, ICLR, AAAI, IJCAI."
+    Publications:
+      - title: "ReGRPO: Reflection-Augmented Policy Optimization for Tool-Using Agents"
+        publisher: ECCV 2026 (accepted)
+        date: "2026"
+        url: https://arxiv.org/abs/2606.31392
+        summary: First author. Grounded reflection and corrective tool use.
+      - title:
+          "TaCA: Upgrading Your Visual Foundation Model with Task-agnostic Compatible
+          Adapter"
+        publisher: arXiv preprint, 2023
+        date: "2023"
+        url: https://arxiv.org/abs/2306.12642
+        summary:
+          First author. Preserve downstream interfaces during visual backbone
+          upgrades.
+      - title: "Darwinian Model Upgrades: Model Evolving with Selective Compatibility"
+        publisher: AAAI 2023
+        date: "2023"
+        url: https://ojs.aaai.org/index.php/AAAI/article/view/25447
+        summary: Co-first author. Selective backward compatibility and forward adaptation.
+      - title: Towards Universal Backward-Compatible Representation Learning
+        publisher: IJCAI 2022 (long oral)
+        date: "2022"
+        url: https://arxiv.org/abs/2203.01583
+        summary:
+          First author. Compatible upgrades across different classes and training
+          settings.
+      - title:
+          Hot-Refresh Model Upgrades with Regression-Alleviating Compatible Training
+          in Image Retrieval
+        publisher: ICLR 2022
+        date: "2022"
+        url: https://openreview.net/forum?id=HTp-6yLGGX
+        summary: First author. Incremental gallery refresh with compatible model upgrades.
+      - title: Selective Partition Repair for Group-Relative Policy Optimization
+        publisher: Under review at ICLR 2027
+        date: "2026"
+        summary: First-author submission (SGRC).
+      - title:
+          "StateTrackBench: Executable Trajectories for Locating Where Language
+          Models Lose Track of Evolving State"
+        publisher: Under review at ICLR 2027
+        date: "2026"
+        summary: First-author submission.
+      - title: "Path Compatibility: Persistent Anchors for Continual VLA Fine-Tuning"
+        publisher: Under review at ICLR 2027
+        date: "2026"
+        summary: First-author submission (PathComp).
+      - title:
+          Keep or Reset? Measuring Update Utility for On-Policy Distillation of
+          Coding Agents
+        publisher: Under review at AAAI
+        date: "2026"
+        summary: First-author submission (POU-OPD).
+  website: https://binjiezhang.github.io/
